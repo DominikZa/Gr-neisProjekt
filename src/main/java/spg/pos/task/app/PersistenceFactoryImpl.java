@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import javax.persistence.EntityManager;
 
-import spg.pos.todo.repositoryjpa.*;
+import spg.pos.task.repositoryjpa.*;
 
 /**
  * The factory for all repositories...

@@ -4,8 +4,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import spg.pos.todo.repositoryjpa.PersistenceFactory;
-import spg.pos.todo.servicejpa.ServiceJpaFactory;
+import spg.pos.task.repositoryjpa.PersistenceFactory;
+import spg.pos.task.servicejpa.ServiceJpaFactory;
 
 /**
  *

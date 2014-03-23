@@ -2,8 +2,8 @@ package spg.pos.task.app;
 
 import java.util.HashMap;
 
-import spg.pos.todo.repositoryjpa.PersistenceFactory;
-import spg.pos.todo.servicejpa.*;
+import spg.pos.task.repositoryjpa.PersistenceFactory;
+import spg.pos.task.servicejpa.*;
 
 /**
  * A factory to create the services...
