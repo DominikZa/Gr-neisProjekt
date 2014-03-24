@@ -10,7 +10,7 @@ import spg.pos.task.servicejpa.*;
  */
 public class ServiceFactoryImpl implements ServiceJpaFactory {
 
-    private final HashMap<Class<?>, ServiceJpa> services = new HashMap<>();
+    private final HashMap<Class<?>, ServiceJpa> services = new HashMap<Class<?>, ServiceJpa>();
 
     private PersistenceFactory persistenceFactory;
 

@@ -8,10 +8,10 @@ import javax.persistence.PersistenceContext;
 import com.mysema.query.jpa.impl.JPAQuery;
 
 import spg.pos.task.model.MultiTimeTask;
+import spg.pos.task.model.QMultiTimeTask;
+import spg.pos.task.model.QSingleTimeTask;
 import spg.pos.task.model.SingleTimeTask;
 import spg.pos.task.repository.TaskRepositoryCustom;
-import spg.pos.todo.model.QMultiTimeTask;
-import spg.pos.todo.model.QSingleTimeTask;
 
 public class TaskRepositoryImpl implements TaskRepositoryCustom
 {
